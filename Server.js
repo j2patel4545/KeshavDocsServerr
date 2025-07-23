@@ -6,7 +6,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import jwt from 'jsonwebtoken';
 import { connectDB } from './Src/config/db.js';
-import SubjectRoutes from './Src/routes/SubjectRoutes.js';
+import SubjectRoutes from './Src/routes/SubjectRoutes.js'; 
 
 dotenv.config();
 
